@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.slidecontainer {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    z-index: 1000;
+    width: 300px;
+}
+
+.slidecontainer p {
+    margin: 5px 0 2px 0;
+    font-size: 14px;
+}
+
+.slidecontainer input[type="range"] {
+    width: 100%;
+}
+
+.sign {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-family: sans-serif;
+    z-index: 1000;
+    width: 130px;
+}
+
+.sign p {
+    margin: 5px 0 2px 0;
+    font-size: 14px;
+}
