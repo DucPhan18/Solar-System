@@ -25,6 +25,19 @@ body {
     width: 100%;
 }
 
+.orbit-audio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.orbit-audio audio {
+    flex-shrink: 0;
+    width: 150px;
+    height: 30px;
+}
+
+
 .sign {
     position: fixed;
     bottom: 10px;
@@ -36,6 +49,7 @@ body {
     font-family: sans-serif;
     z-index: 1000;
     width: 130px;
+    height: 40px;
 }
 
 .sign p {
