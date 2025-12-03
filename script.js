@@ -40,6 +40,7 @@ function drawOrbit(d) {
 
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
+	camera(0, -200, 0, 0, 0, 0, 0, 0, 1);
 
 	for (let i = 0; i < numStars; i++) {
 		let x = random(-2000, 2000);
